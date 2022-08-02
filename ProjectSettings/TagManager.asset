@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Rooms
+  - SpawnPoint
+  - spawn point
+  - LegCollider
+  - Enemy
+  - BodyCollider
+  - PlayerTrigger
+  - HitBox
+  - Character
+  - Shadow
+  - Wall
+  - Boss
+  - BossSubClass
+  - EnemySubClass
+  - Coin
+  - Bullet
+  - EBullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemy
+  - Ground
+  - Character
+  - Fog
+  - Vision
+  - Hidden
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: shadow
+    uniqueID: 3718496387
+    locked: 0
+  - name: ground
+    uniqueID: 773719471
+    locked: 0
+  - name: wall
+    uniqueID: 3233526143
+    locked: 0
+  - name: object
+    uniqueID: 103152081
+    locked: 0
+  - name: UI
+    uniqueID: 2542005561
+    locked: 0

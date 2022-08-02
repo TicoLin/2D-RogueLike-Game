@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7621093704371088279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7621093704371088277}
+  - component: {fileID: 7621093704371088276}
+  m_Layer: 0
+  m_Name: FOG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7621093704371088277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7621093704371088279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.133471, y: -2.8854275, z: -141.96498}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7621093704371088276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7621093704371088279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799ea37db3eb5d6469e18da5782bac98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugModeEnabled: 0
+  drawMode: 1
+  Perspective3DRenderRotation: {x: 90, y: 0, z: 0}
+  Orthographic2DRenderRotation: {x: 0, y: 0, z: 0}
+  fogMesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  doExperimentalChunkFeature: 0
+  meshScaleDivisor: 1
+  meshScalePostMultiplier: 2.56
+  unexploredColor: {r: 0, g: 0, b: 0, a: 255}
+  exploredColor: {r: 0, g: 0, b: 0, a: 0.78431374}
+  fogMat: {fileID: 2100000, guid: 003527cd71f975048a6254f3535a0e7b, type: 2}
+  fogShader: {fileID: 4800000, guid: bc1f5f0eb82191a4b858c2bd2cfc1a6b, type: 3}
+  fogFilterMode: 0
+  heightObstacleMask:
+    serializedVersion: 2
+    m_Bits: 512
+  heightRange: {x: 0, y: -1000}
+  margin: 0
+  chunkLOSRaycastRadius: 0
+  fogRenderHeightPosition: 0
+  orientation: 1
+  textureBlendTime: 0.5
+  blurIterations: 2
+  updateFrequency: 0.3
+  clampBlendFactorToTextureTime: 1
+  rootChunkPosition: {x: 0, y: 0, z: 0}
+  chunkBoundsMultiplier: {x: 1, y: 1, z: 1}
+  chunkSeamBufferDelay: 0.5
+  boundsDepth: 100
+  chunkSquaredAmount: 0
+  textureQualityPerChunk: 512
+  chunkSize: 512
+  chunkPrefab: {fileID: 0}
