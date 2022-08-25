@@ -64,6 +64,10 @@ public class GameManager : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex ==0)
         {
             playerData = new PlayerData();
+            if (PlayerPrefs.GetString("jsondata") == null)
+            {
+                PlayerPrefs.SetString("jsondata", JsonUtility.ToJson(playerData));
+            }
         }
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
